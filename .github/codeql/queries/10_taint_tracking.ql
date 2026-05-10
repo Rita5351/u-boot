@@ -1,5 +1,9 @@
 /**
+ * @name Vulnerabilita Network Byte Swap (U-Boot)
+ * @description Un attaccante puo causare un buffer overflow tramite dati di rete non validati.
  * @kind path-problem
+ * @problem.severity critical
+ * @id cpp/uboot/network-taint-memcpy
  */
 
 import cpp
